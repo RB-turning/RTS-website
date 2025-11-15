@@ -1,0 +1,36 @@
+/* ... garde tout le reste inchangé ... */
+
+/* Réalisations */
+
+.realisations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.real-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.3rem;
+    border: 1px solid #e3e5ec;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.real-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+    color: #1f4d9f;
+}
+
+.real-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.realisations-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
