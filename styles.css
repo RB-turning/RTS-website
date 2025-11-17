@@ -36,7 +36,7 @@ body {
 }
 
 .logo img {
-    height: 100px;
+    height: 200px;
 }
 
 .nav a {
@@ -417,6 +417,7 @@ body {
         padding: 3rem 0;
     }
 }
+
 
 
 
